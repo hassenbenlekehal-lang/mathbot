@@ -11,7 +11,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-5"
 API_URL = "https://api.anthropic.com/v1/messages"
 
 SYSTEM_PROMPT = """Tu es MathBot, un assistant pédagogique pour les élèves de collège et lycée en France.
